@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if val < i
       lowest_key = nm
     else
-     i += 1
+     i += val
    end
  end
  lowest_key
